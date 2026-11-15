@@ -1,0 +1,113 @@
+{
+  "dataset": "MediaEval VMU images",
+  "selected_C": 0.001,
+  "leave_event_out_cv": {
+    "C0.001": {
+      "n": 358,
+      "n_fake": 182,
+      "n_real": 176,
+      "accuracy": 0.4078,
+      "precision_fake": 0.4507,
+      "recall_fake": 0.7527,
+      "f1_fake": 0.5638,
+      "f1_macro": 0.321,
+      "confusion_matrix": [
+        [
+          9,
+          167
+        ],
+        [
+          45,
+          137
+        ]
+      ],
+      "roc_auc": 0.316
+    },
+    "C0.01": {
+      "n": 358,
+      "n_fake": 182,
+      "n_real": 176,
+      "accuracy": 0.4078,
+      "precision_fake": 0.45,
+      "recall_fake": 0.7418,
+      "f1_fake": 0.5602,
+      "f1_macro": 0.3271,
+      "confusion_matrix": [
+        [
+          11,
+          165
+        ],
+        [
+          47,
+          135
+        ]
+      ],
+      "roc_auc": 0.3082
+    },
+    "C0.1": {
+      "n": 358,
+      "n_fake": 182,
+      "n_real": 176,
+      "accuracy": 0.3939,
+      "precision_fake": 0.4422,
+      "recall_fake": 0.7363,
+      "f1_fake": 0.5526,
+      "f1_macro": 0.3066,
+      "confusion_matrix": [
+        [
+          7,
+          169
+        ],
+        [
+          48,
+          134
+        ]
+      ],
+      "roc_auc": 0.3104
+    }
+  },
+  "test": {
+    "test2015": {
+      "n": 48,
+      "n_fake": 31,
+      "n_real": 17,
+      "accuracy": 0.5417,
+      "precision_fake": 0.6552,
+      "recall_fake": 0.6129,
+      "f1_fake": 0.6333,
+      "f1_macro": 0.5111,
+      "confusion_matrix": [
+        [
+          7,
+          10
+        ],
+        [
+          12,
+          19
+        ]
+      ],
+      "roc_auc": 0.6129
+    },
+    "test2016": {
+      "n": 104,
+      "n_fake": 50,
+      "n_real": 54,
+      "accuracy": 0.5673,
+      "precision_fake": 0.5397,
+      "recall_fake": 0.68,
+      "f1_fake": 0.6018,
+      "f1_macro": 0.564,
+      "confusion_matrix": [
+        [
+          25,
+          29
+        ],
+        [
+          16,
+          34
+        ]
+      ],
+      "roc_auc": 0.6581
+    }
+  }
+}

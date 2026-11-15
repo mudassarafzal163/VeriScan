@@ -1,0 +1,30 @@
+[
+  {
+    "text": "Cheated Husband Literally Gives Half Of Everything To Ex http://t.co/MlfvNy0sOr http://t.co/QSCwP4ceuS",
+    "image": "mediaeval2016_fake_1.jpg",
+    "true_label": "fake",
+    "event": "half_everything",
+    "source": "MediaEval VMU 2016 test set"
+  },
+  {
+    "text": "North Korea's Nuclear Missile Threat: Very Bad News https://t.co/SpOjQtY3fS https://t.co/L6cvQ0eo4w",
+    "image": "mediaeval2016_fake_2.jpg",
+    "true_label": "fake",
+    "event": "north_korea",
+    "source": "MediaEval VMU 2016 test set"
+  },
+  {
+    "text": "#BREAKING: French police report at least 26 dead, possibly 60 held hostage in Bataclan concert hall in Paris. https://t.co/jkd0iM6MxP",
+    "image": "mediaeval2016_real_1.jpg",
+    "true_label": "real",
+    "event": "attacks_paris",
+    "source": "MediaEval VMU 2016 test set"
+  },
+  {
+    "text": "\"@Le_Figaro: Au moins 18 morts, selon les forces de l'ordre. #Paris #shooting https://t.co/jHswyTBAsN https://t.co/0aqtlTc86H\"/@enriquevp",
+    "image": "mediaeval2016_real_2.jpg",
+    "true_label": "real",
+    "event": "attacks_paris",
+    "source": "MediaEval VMU 2016 test set"
+  }
+]

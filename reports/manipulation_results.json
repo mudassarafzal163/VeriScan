@@ -1,0 +1,56 @@
+{
+  "dataset": "Synthetic tampering from authentic MediaEval photos",
+  "train_images": 1056,
+  "test_images": 426,
+  "train_blocks": 315215,
+  "test_blocks": 96793,
+  "test_image_level": {
+    "n": 426,
+    "n_fake": 213,
+    "n_real": 213,
+    "accuracy": 0.6878,
+    "precision_fake": 0.6587,
+    "recall_fake": 0.7793,
+    "f1_fake": 0.714,
+    "f1_macro": 0.6852,
+    "confusion_matrix": [
+      [
+        127,
+        86
+      ],
+      [
+        47,
+        166
+      ]
+    ],
+    "roc_auc": 0.7929
+  },
+  "test_block_level_localisation": {
+    "n": 96793,
+    "n_fake": 2703,
+    "n_real": 94090,
+    "accuracy": 0.9104,
+    "precision_fake": 0.1995,
+    "recall_fake": 0.7333,
+    "f1_fake": 0.3137,
+    "f1_macro": 0.6329,
+    "confusion_matrix": [
+      [
+        86138,
+        7952
+      ],
+      [
+        721,
+        1982
+      ]
+    ],
+    "roc_auc": 0.9059
+  },
+  "test_recall_by_operation": {
+    "splice": 0.8056,
+    "copy_move": 0.6912,
+    "retouch": 0.8356
+  },
+  "test_false_positive_rate_authentic": 0.4038,
+  "auc_on_mediaeval_misuse_labels": 0.4769
+}

@@ -1,0 +1,46 @@
+[
+  {
+    "name": "FakeNewsNet test · fake #1",
+    "text": "Mariah Carey's Sister Claims Their Mother Is Leader Of Satanic Cult",
+    "kind": "news",
+    "true_label": "fake",
+    "source": "FakeNewsNet test split"
+  },
+  {
+    "name": "FakeNewsNet test · fake #2",
+    "text": "Angelina Jolie 'ordered to allow Brad Pitt to spend more time with their children or risk losing primary custody'",
+    "kind": "news",
+    "true_label": "fake",
+    "source": "FakeNewsNet test split"
+  },
+  {
+    "name": "FakeNewsNet test · real #1",
+    "text": "Fergie and Josh Duhamel's son Axl hugs friend",
+    "kind": "news",
+    "true_label": "real",
+    "source": "FakeNewsNet test split"
+  },
+  {
+    "name": "FakeNewsNet test · real #2",
+    "text": "Taylor Swift's Latest Surprise Has Amber Rose and Wiz Khalifa's Son Freaking Out",
+    "kind": "news",
+    "true_label": "real",
+    "source": "FakeNewsNet test split"
+  },
+  {
+    "name": "MediaEval 2016 test · fake",
+    "text": "‏​هذا الطفل نجا باعجوبة من نسر خطفه من والديه وطار به !! صدق الله العظيم ( لكلّ أجل كتاب)  https://t.co/qWTlSroBic",
+    "kind": "social",
+    "true_label": "fake",
+    "source": "MediaEval 2016 test",
+    "image_path": NaN
+  },
+  {
+    "name": "MediaEval 2016 test · real",
+    "text": "@fouseyTUBE  yousif check this out and share it or do somthing this is so sreious please help https://t.co/X9aUCoW2CJ",
+    "kind": "social",
+    "true_label": "real",
+    "source": "MediaEval 2016 test",
+    "image_path": NaN
+  }
+]

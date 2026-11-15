@@ -1,0 +1,8 @@
+{% extends "base.html" %}{% block title %}Error{% endblock %}
+{% block content %}
+<div class="card"><div class="card-body text-center py-5">
+  <i class="bi bi-exclamation-circle fs-1 text-secondary"></i>
+  <h2 class="h4 mt-2">{{ message }}</h2>
+  <a href="{{ url_for('pages.index') }}" class="btn btn-primary mt-3">Back to dashboard</a>
+</div></div>
+{% endblock %}

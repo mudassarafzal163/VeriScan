@@ -1,0 +1,54 @@
+{
+  "fakenewsnet": {
+    "train": {
+      "n": 14854,
+      "fake": 3580,
+      "real": 11274
+    },
+    "val": {
+      "n": 3183,
+      "fake": 767,
+      "real": 2416
+    },
+    "test": {
+      "n": 3183,
+      "fake": 767,
+      "real": 2416
+    },
+    "removed_duplicates_or_short": 1421
+  },
+  "mediaeval": {
+    "dev": {
+      "posts": 14483,
+      "fake_posts": 9474,
+      "events": 11,
+      "posts_with_image_file": 14464
+    },
+    "test2015": {
+      "posts": 3781,
+      "fake_posts": 2564,
+      "events": 6,
+      "posts_with_image_file": 1932
+    },
+    "test2016": {
+      "posts": 2228,
+      "fake_posts": 1230,
+      "events": 36,
+      "posts_with_image_file": 1117
+    },
+    "images": {
+      "dev": {
+        "0": 176,
+        "1": 182
+      },
+      "test2015": {
+        "0": 17,
+        "1": 31
+      },
+      "test2016": {
+        "0": 54,
+        "1": 50
+      }
+    }
+  }
+}

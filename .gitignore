@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+data/raw/
+database/*.db
+app/static/uploads/*
+!app/static/uploads/.gitkeep
+
+.venv/
+__pycache__/
+models/cnn_weights/
+models/consistency_ridge.joblib

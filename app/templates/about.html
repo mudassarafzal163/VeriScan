@@ -1,0 +1,68 @@
+{% extends "base.html" %}{% block title %}About{% endblock %}
+{% macro mrow(name, m) %}{% if m %}<tr><td>{{ name }}</td><td class="text-end">{{ m.n }}</td><td class="text-end">{{ '%.3f'|format(m.accuracy) }}</td><td class="text-end">{{ '%.3f'|format(m.precision_fake) }}</td><td class="text-end">{{ '%.3f'|format(m.recall_fake) }}</td><td class="text-end">{{ '%.3f'|format(m.f1_fake) }}</td><td class="text-end">{{ '%.3f'|format(m.f1_macro) }}</td><td class="text-end">{{ '%.3f'|format(m.roc_auc) if m.roc_auc is not none else '–' }}</td></tr>{% endif %}{% endmacro %}
+{% block content %}
+<h1 class="page-title h3">About the project</h1>
+<p class="lead-muted">“Multimodal Deep Fake News Detection System Using Artificial Intelligence and Deep Learning” — BSCS Final Year Project.</p>
+
+<div class="row g-3">
+<div class="col-lg-7">
+<div class="card mb-3"><div class="card-header">Architecture</div><div class="card-body small">
+<svg viewBox="0 0 640 300" width="100%" role="img" aria-label="System architecture diagram" style="max-height:320px">
+  <defs><marker id="ar" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#5f6b7d"/></marker></defs>
+  <style>.b{fill:#fff;stroke:#2f6fed;stroke-width:1.2;rx:8}.t{font:12px system-ui;fill:#1b2333}.s{font:10px system-ui;fill:#5f6b7d}.l{stroke:#5f6b7d;stroke-width:1.2;marker-end:url(#ar)}.f{fill:#eef3ff;stroke:#2f6fed;stroke-width:1.5;rx:8}</style>
+  <rect class="b" x="10" y="20" width="120" height="44"/><text class="t" x="70" y="40" text-anchor="middle">Text</text><text class="s" x="70" y="55" text-anchor="middle">headline / post</text>
+  <rect class="b" x="10" y="128" width="120" height="44"/><text class="t" x="70" y="148" text-anchor="middle">Image</text><text class="s" x="70" y="163" text-anchor="middle">news photo</text>
+  <rect class="b" x="10" y="236" width="120" height="44"/><text class="t" x="70" y="256" text-anchor="middle">Video</text><text class="s" x="70" y="271" text-anchor="middle">clip</text>
+  <rect class="b" x="170" y="14" width="170" height="56"/><text class="t" x="255" y="36" text-anchor="middle">TF-IDF + Logistic Reg.</text><text class="s" x="255" y="52" text-anchor="middle">word contributions</text>
+  <rect class="b" x="170" y="100" width="170" height="44"/><text class="t" x="255" y="120" text-anchor="middle">Block forensics (GBDT)</text><text class="s" x="255" y="135" text-anchor="middle">JPEG-ghost, noise → heatmap</text>
+  <rect class="b" x="170" y="156" width="170" height="44"/><text class="t" x="255" y="176" text-anchor="middle">EfficientNet-B0 heads</text><text class="s" x="255" y="191" text-anchor="middle">content / AI-gen + CAM</text>
+  <rect class="b" x="170" y="236" width="170" height="44"/><text class="t" x="255" y="256" text-anchor="middle">Key-frame sampler</text><text class="s" x="255" y="271" text-anchor="middle">frame forensics, faces, cuts</text>
+  <rect class="b" x="370" y="128" width="110" height="44"/><text class="t" x="425" y="148" text-anchor="middle">Consistency</text><text class="s" x="425" y="163" text-anchor="middle">CLIP (optional)</text>
+  <rect class="f" x="500" y="100" width="130" height="100"/><text class="t" x="565" y="135" text-anchor="middle">Reliability-</text><text class="t" x="565" y="151" text-anchor="middle">weighted fusion</text><text class="s" x="565" y="170" text-anchor="middle">+ flags, conflicts</text><text class="s" x="565" y="184" text-anchor="middle">→ explained verdict</text>
+  <line class="l" x1="130" y1="42" x2="168" y2="42"/><line class="l" x1="130" y1="150" x2="168" y2="122"/><line class="l" x1="130" y1="150" x2="168" y2="178"/><line class="l" x1="130" y1="258" x2="168" y2="258"/>
+  <line class="l" x1="340" y1="42" x2="498" y2="120"/><line class="l" x1="340" y1="122" x2="498" y2="135"/><line class="l" x1="340" y1="178" x2="368" y2="155"/><line class="l" x1="480" y1="150" x2="498" y2="150"/><line class="l" x1="340" y1="258" x2="498" y2="185"/>
+  <line class="l" x1="340" y1="42" x2="368" y2="140"/>
+</svg>
+<p class="mb-0">Stack: Python, Flask, scikit-learn, PyTorch (EfficientNet-B0), OpenCV, SQLite, Bootstrap 5, Chart.js. Every request is stored in SQLite with its full explanation.</p>
+</div></div>
+
+<div class="card mb-3"><div class="card-header">Datasets used (all public)</div><div class="card-body small">
+<ul class="mb-0">
+<li><b>FakeNewsNet</b> (Shu et al., 2018): PolitiFact + GossipCop news titles labelled by fact-checkers.
+  {% if summary %}After de-duplication: {{ summary.fakenewsnet.train.n }} train / {{ summary.fakenewsnet.val.n }} validation / {{ summary.fakenewsnet.test.n }} test.{% endif %}</li>
+<li><b>MediaEval Verifying Multimedia Use</b> 2015/2016 (Boididou et al.): tweets with attached images labelled fake/real.
+  Training on 2015 dev ({{ summary.mediaeval.dev.posts if summary else '' }} posts), validation on 2015 test, final test on 2016 test; the events of the three sets are disjoint.</li>
+<li><b>Synthetic tampering set</b>: splices, copy-moves and retouches generated with pixel masks from authentic MediaEval photos (training and test use different source photos).</li>
+<li><b>AI-generated images</b>: the training script supports CIFAKE/GenImage folder layouts. That data could not be downloaded in the build environment, so this detector is {{ 'installed' if status.image_ai_generated else '<b>not installed</b>'|safe }}.</li>
+</ul></div></div>
+</div>
+
+<div class="col-lg-5">
+<div class="card mb-3"><div class="card-header">Scientific honesty: what this system cannot do</div><div class="card-body small">
+<ul class="mb-0">
+<li>No model verifies facts. Text scores reflect writing patterns of labelled data from 2012–2018.</li>
+<li>Pixel forensics detect <i>local edits</i>. They cannot detect a genuine photo reused out of context. On MediaEval's misleading-use labels, the forensic detector is at chance.</li>
+<li>Social-media recompression removes many forensic traces; forensic false-positive rate on held-out authentic photos is reported below.</li>
+<li>Video: no trained face-swap model; audio not analysed.</li>
+<li>Text–image semantic consistency needs CLIP (optional install). The small learned alternative did not beat chance and is not used.</li>
+<li>Scores are not probabilities of truth. Verdicts within 0.35–0.65 are shown as UNCERTAIN.</li>
+</ul></div></div>
+</div>
+</div>
+
+<div class="card mb-3"><div class="card-header">Evaluation results (held-out test data, threshold 0.5)</div><div class="card-body p-0"><div class="table-responsive">
+<table class="table table-sm small mb-0 metric-table"><thead><tr><th class="ps-3">Model / test set</th><th class="text-end">n</th><th class="text-end">Accuracy</th><th class="text-end">Precision (fake)</th><th class="text-end">Recall (fake)</th><th class="text-end">F1 (fake)</th><th class="text-end">F1 macro</th><th class="text-end pe-3">ROC-AUC</th></tr></thead>
+<tbody class="ps-3">
+{% set r = reports %}
+{% if r.text_news %}{{ mrow('Text LR – FakeNewsNet test', r.text_news.test_deployed) }}{{ mrow('  baseline: Complement NB', r.text_news.test_baselines.complement_nb) }}{{ mrow('  baseline: Linear SVM', r.text_news.test_baselines.linear_svm_calibrated) }}{{ mrow('  baseline: majority class', r.text_news.test_baselines.majority_baseline) }}{% endif %}
+{% if r.text_social %}{{ mrow('Social text – MediaEval 2015 test', r.text_social.test.test2015) }}{{ mrow('Social text – MediaEval 2016 test', r.text_social.test.test2016) }}{% endif %}
+{% if r.image_context %}{{ mrow('Image content – MediaEval 2015 test images', r.image_context.test.test2015) }}{{ mrow('Image content – MediaEval 2016 test images', r.image_context.test.test2016) }}{% endif %}
+{% if r.manipulation %}{{ mrow('Forensics – synthetic test (image level)', r.manipulation.test_image_level) }}{{ mrow('Forensics – synthetic test (32px block localisation)', r.manipulation.test_block_level_localisation) }}{% endif %}
+{% if r.fusion %}{% set fu = r.fusion.fusion %}{{ mrow('Fusion (reliability-weighted) – MediaEval 2016 test', fu.reliability_weighted_fusion) }}{{ mrow('  ablation: unweighted average', fu.ablation_unweighted_average) }}{{ mrow('  ablation: stacked LR', fu.ablation_stacked_lr) }}{{ mrow('  ablation: text only', fu.ablation_only_text) }}{{ mrow('  ablation: image content only', fu.ablation_only_image_context) }}{{ mrow('  ablation: forensics only', fu.ablation_only_manipulation) }}{% endif %}
+</tbody></table></div>
+<div class="small text-secondary p-3">
+{% if r.manipulation %}Forensic false-positive rate on held-out authentic photos: {{ '%.1f'|format(r.manipulation.test_false_positive_rate_authentic*100) }}%. Recall by edit type: {% for k, v in r.manipulation.test_recall_by_operation.items() %}{{ k }} {{ '%.0f'|format(v*100) }}%{{ ', ' if not loop.last }}{% endfor %}. AUC on MediaEval misleading-use labels: {{ r.manipulation.auc_on_mediaeval_misuse_labels }}.{% endif %}
+{% if r.fusion %} Fusion weights w = max(validation AUC − 0.5, 0), normalised: {% for k, w in r.fusion.fusion.fusion_weights.items() %}{{ k.replace('_', ' ') }} {{ '%.2f'|format(w) }} (val. AUC {{ '%.3f'|format(r.fusion.fusion.validation_auc[k]) }}){{ ', ' if not loop.last }}{% endfor %}. Learned text–image consistency, matched vs. mismatched AUC: {{ r.fusion.consistency.test2015_matched_vs_mismatched_auc }} (2015 test) / {{ r.fusion.consistency.test2016_matched_vs_mismatched_auc }} (2016 test), so it is not used.{% endif %}
+Full report: <code>reports/EVALUATION_REPORT.md</code>.</div>
+</div></div>
+{% endblock %}

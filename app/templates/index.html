@@ -1,0 +1,42 @@
+{% extends "base.html" %}{% block title %}Dashboard{% endblock %}
+{% block content %}
+<div class="mb-4">
+  <h1 class="page-title h3 mb-1">Multimodal Deep Fake News Detection</h1>
+  <p class="lead-muted mb-0">Analyse news text, photos and videos with deep-learning and forensic models, and get an explainable, evidence-based assessment.</p>
+</div>
+<div class="row g-3 mb-4">
+  <div class="col-6 col-lg-3"><div class="card stat-tile"><div class="num">{{ stats.total }}</div><div class="lbl">analyses stored</div></div></div>
+  <div class="col-6 col-lg-3"><div class="card stat-tile"><div class="num" style="color:var(--fake)">{{ stats.by_verdict.get('LIKELY FAKE', 0) }}</div><div class="lbl">likely fake</div></div></div>
+  <div class="col-6 col-lg-3"><div class="card stat-tile"><div class="num" style="color:var(--real)">{{ stats.by_verdict.get('LIKELY REAL', 0) }}</div><div class="lbl">likely real</div></div></div>
+  <div class="col-6 col-lg-3"><div class="card stat-tile"><div class="num" style="color:var(--unc)">{{ stats.by_verdict.get('UNCERTAIN', 0) }}</div><div class="lbl">uncertain</div></div></div>
+</div>
+<div class="row g-3 mb-4">
+  {% for ep, icon, title, desc in [('pages.text_page','fonts','Text detection','Headlines, articles, captions and posts with word-level explanations.'),
+       ('pages.image_page','image','Image analysis','Tampering heatmaps, ELA, metadata and AI-generation checks.'),
+       ('pages.video_page','camera-video','Video analysis','Key-frame forensics, face detection and temporal consistency.'),
+       ('pages.multimodal_page','layers','Multimodal detection','Fuse text, image and video evidence into one explained verdict.')] %}
+  <div class="col-sm-6 col-lg-3"><a class="card feature-card" href="{{ url_for(ep) }}"><div class="card-body">
+    <i class="bi bi-{{ icon }}"></i><h2 class="h6 mt-2 mb-1">{{ title }}</h2><p class="small text-secondary mb-0">{{ desc }}</p></div></a></div>
+  {% endfor %}
+</div>
+<div class="row g-3">
+  <div class="col-lg-7"><div class="card h-100"><div class="card-header">Measured performance on held-out test data</div><div class="card-body p-0">
+    <div class="table-responsive"><table class="table table-sm mb-0 metric-table small">
+      <thead><tr><th class="ps-3">Model (test set)</th><th class="text-end">n</th><th class="text-end">Acc.</th><th class="text-end">F1 fake</th><th class="text-end pe-3">ROC-AUC</th></tr></thead>
+      <tbody>{% for name, m in metrics.items() %}<tr><td class="ps-3">{{ name }}</td><td class="text-end">{{ m.n }}</td><td class="text-end">{{ '%.3f'|format(m.accuracy) }}</td><td class="text-end">{{ '%.3f'|format(m.f1_fake) }}</td><td class="text-end pe-3">{{ '%.3f'|format(m.roc_auc) if m.roc_auc is not none else '–' }}</td></tr>{% endfor %}
+      {% if not metrics %}<tr><td colspan="5" class="ps-3 text-secondary">No evaluation results found. Run the training scripts.</td></tr>{% endif %}</tbody>
+    </table></div>
+    <div class="small text-secondary p-3 pt-2">Computed by the evaluation pipeline on data never used for training or model selection. Details on the <a href="{{ url_for('pages.about_page') }}">About</a> page.</div>
+  </div></div></div>
+  <div class="col-lg-5"><div class="card mb-3"><div class="card-header">Model status</div><div class="card-body small">
+    {% for k, v in status.items() %}<div class="d-flex justify-content-between border-bottom py-1"><span>{{ k.replace('_', ' ') }}</span>
+      {% if v %}<span class="text-success"><i class="bi bi-check-circle-fill"></i> loaded</span>{% else %}<span class="text-secondary"><i class="bi bi-dash-circle"></i> not installed</span>{% endif %}</div>{% endfor %}
+  </div></div>
+  <div class="card"><div class="card-header d-flex justify-content-between"><span>Recent analyses</span><a class="small" href="{{ url_for('pages.history_page') }}">all</a></div>
+    <ul class="list-group list-group-flush small">{% for r in stats.recent %}
+      <li class="list-group-item d-flex justify-content-between align-items-center gap-2"><a href="{{ url_for('pages.history_detail', det_id=r.id) }}" class="text-truncate">{{ r.modality }} · {{ r.input_summary or '–' }}</a>
+      <span class="badge badge-verdict {{ 'bg-fake' if r.verdict=='LIKELY FAKE' else 'bg-real' if r.verdict=='LIKELY REAL' else 'bg-unc' if r.verdict=='UNCERTAIN' else 'bg-secondary' }}">{{ r.verdict }}</span></li>
+    {% else %}<li class="list-group-item text-secondary">Nothing analysed yet.</li>{% endfor %}</ul></div>
+  </div>
+</div>
+{% endblock %}

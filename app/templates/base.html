@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}VeriScan{% endblock %} · Multimodal Fake News Detection</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='vendor/bootstrap.min.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='vendor/bootstrap-icons.min.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark app-nav sticky-top">
+  <div class="container-xl">
+    <a class="navbar-brand fw-semibold" href="{{ url_for('pages.index') }}"><i class="bi bi-shield-check me-1"></i>VeriScan</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="nav">
+      <ul class="navbar-nav ms-auto">
+        {% set items = [('home','pages.index','speedometer2','Dashboard'),('text','pages.text_page','fonts','Text'),
+                        ('image','pages.image_page','image','Image'),('video','pages.video_page','camera-video','Video'),
+                        ('multimodal','pages.multimodal_page','layers','Multimodal'),('history','pages.history_page','clock-history','History'),
+                        ('about','pages.about_page','info-circle','About')] %}
+        {% for key, ep, icon, label in items %}
+        <li class="nav-item"><a class="nav-link {% if active == key %}active{% endif %}" href="{{ url_for(ep) }}"><i class="bi bi-{{ icon }} me-1"></i>{{ label }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</nav>
+<main class="container-xl py-4">
+  {% block content %}{% endblock %}
+</main>
+<footer class="app-footer py-3">
+  <div class="container-xl small text-secondary">
+    Multimodal Deep Fake News Detection System · BSCS Final Year Project ·
+    Model scores support human fact-checking; they are not a probability that a story is true.
+  </div>
+</footer>
+<script src="{{ url_for('static', filename='vendor/bootstrap.bundle.min.js') }}"></script>
+<script src="{{ url_for('static', filename='vendor/chart.umd.min.js') }}"></script>
+<script src="{{ url_for('static', filename='js/app.js') }}"></script>
+{% block scripts %}{% endblock %}
+</body>
+</html>

@@ -1,0 +1,23 @@
+{% extends "base.html" %}{% block title %}Image analysis{% endblock %}
+{% block content %}
+<h1 class="page-title h3">Image analysis</h1>
+<p class="lead-muted">Checks a news photo for local tampering (splicing, copy-move, retouching), AI-generation traces and suspicious metadata, with visual evidence.</p>
+<div class="card"><div class="card-body">
+<form id="image-form">
+  <div class="dropzone"><i class="bi bi-cloud-arrow-up fs-2 text-secondary"></i>
+    <div>Drop an image here or click to choose <span class="text-secondary small">(JPG, PNG, WEBP, BMP, GIF · max {{ config_max }} MB)</span></div>
+    <input type="file" name="image" accept="image/*" class="form-control mt-2" required>
+    <div class="dz-preview"></div></div>
+  <div class="small text-secondary mt-2">Sample files are in <code>sample_inputs/images</code> (synthetic tampered/authentic examples with ground-truth masks).</div>
+  <div class="form-error alert alert-danger mt-3 d-none"></div>
+  <button type="submit" class="btn btn-primary mt-3"><span class="spinner-border spinner-border-sm spinner-overlay me-1"></span>Analyse image</button>
+</form>
+</div></div>
+{% include "_result_area.html" %}
+{% endblock %}
+{% block scripts %}<script>
+document.getElementById("image-form").addEventListener("submit", (e) => {
+  e.preventDefault();
+  submitAnalysis(e.target, "/api/analyze/image", document.getElementById("result"), () => ({ body: new FormData(e.target) }));
+});
+</script>{% endblock %}

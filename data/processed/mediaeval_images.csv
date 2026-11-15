@@ -1,0 +1,511 @@
+image_id,path,label,event,split
+boston_fake_01,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/BostonMarathon/fakes/boston_fake_01.jpg,1,boston,dev
+boston_fake_02,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/BostonMarathon/fakes/boston_fake_02.jpg,1,boston,dev
+boston_fake_03,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/BostonMarathon/fakes/boston_fake_03.jpg,1,boston,dev
+boston_fake_04,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/BostonMarathon/fakes/boston_fake_04.jpg,1,boston,dev
+boston_fake_05,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/BostonMarathon/fakes/boston_fake_05.jpg,1,boston,dev
+boston_fake_06,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/BostonMarathon/fakes/boston_fake_06.jpg,1,boston,dev
+boston_fake_07,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/BostonMarathon/fakes/boston_fake_07.jpg,1,boston,dev
+boston_fake_08,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/BostonMarathon/fakes/boston_fake_08.jpg,1,boston,dev
+boston_fake_09,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/BostonMarathon/fakes/boston_fake_09.jpg,1,boston,dev
+boston_fake_10,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/BostonMarathon/fakes/boston_fake_10.gif,1,boston,dev
+boston_fake_11,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/BostonMarathon/fakes/boston_fake_11.jpg,1,boston,dev
+boston_fake_12,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/BostonMarathon/fakes/boston_fake_12.jpg,1,boston,dev
+boston_fake_13,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/BostonMarathon/fakes/boston_fake_13.jpg,1,boston,dev
+boston_fake_14,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/BostonMarathon/fakes/boston_fake_14.jpg,1,boston,dev
+boston_fake_15,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/BostonMarathon/fakes/boston_fake_15.jpg,1,boston,dev
+boston_fake_16,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/BostonMarathon/fakes/boston_fake_16.jpg,1,boston,dev
+boston_fake_17,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/BostonMarathon/fakes/boston_fake_17.jpg,1,boston,dev
+boston_fake_18,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/BostonMarathon/fakes/boston_fake_18.jpg,1,boston,dev
+boston_fake_19,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/BostonMarathon/fakes/boston_fake_19.jpg,1,boston,dev
+boston_fake_20,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/BostonMarathon/fakes/boston_fake_20.jpg,1,boston,dev
+boston_fake_21,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/BostonMarathon/fakes/boston_fake_21.jpg,1,boston,dev
+boston_fake_22,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/BostonMarathon/fakes/boston_fake_22.jpg,1,boston,dev
+boston_fake_23,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/BostonMarathon/fakes/boston_fake_23.jpg,1,boston,dev
+boston_fake_24,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/BostonMarathon/fakes/boston_fake_24.jpg,1,boston,dev
+boston_fake_25,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/BostonMarathon/fakes/boston_fake_25.jpg,1,boston,dev
+boston_fake_26,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/BostonMarathon/fakes/boston_fake_26.jpg,1,boston,dev
+boston_fake_27,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/BostonMarathon/fakes/boston_fake_27.png,1,boston,dev
+boston_fake_28,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/BostonMarathon/fakes/boston_fake_28.jpg,1,boston,dev
+boston_fake_29,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/BostonMarathon/fakes/boston_fake_29.jpg,1,boston,dev
+boston_fake_30,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/BostonMarathon/fakes/boston_fake_30.jpg,1,boston,dev
+boston_fake_31,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/BostonMarathon/fakes/boston_fake_31.jpg,1,boston,dev
+boston_fake_32,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/BostonMarathon/fakes/boston_fake_32.jpg,1,boston,dev
+boston_fake_33,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/BostonMarathon/fakes/boston_fake_33.jpg,1,boston,dev
+boston_fake_34,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/BostonMarathon/fakes/boston_fake_34.png,1,boston,dev
+boston_real_01,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/BostonMarathon/reals/boston_real_01.jpg,0,boston,dev
+boston_real_02,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/BostonMarathon/reals/boston_real_02.jpg,0,boston,dev
+boston_real_03,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/BostonMarathon/reals/boston_real_03.jpg,0,boston,dev
+boston_real_04,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/BostonMarathon/reals/boston_real_04.jpg,0,boston,dev
+boston_real_06,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/BostonMarathon/reals/boston_real_06.jpg,0,boston,dev
+boston_real_07,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/BostonMarathon/reals/boston_real_07.jpg,0,boston,dev
+boston_real_08,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/BostonMarathon/reals/boston_real_08.jpg,0,boston,dev
+boston_real_09,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/BostonMarathon/reals/boston_real_09.jpg,0,boston,dev
+boston_real_10,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/BostonMarathon/reals/boston_real_10.jpg,0,boston,dev
+boston_real_11,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/BostonMarathon/reals/boston_real_11.jpg,0,boston,dev
+boston_real_12,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/BostonMarathon/reals/boston_real_12.jpg,0,boston,dev
+boston_real_13,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/BostonMarathon/reals/boston_real_13.png,0,boston,dev
+boston_real_14,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/BostonMarathon/reals/boston_real_14.jpg,0,boston,dev
+boston_real_15,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/BostonMarathon/reals/boston_real_15.jpg,0,boston,dev
+boston_real_16,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/BostonMarathon/reals/boston_real_16.jpg,0,boston,dev
+boston_real_17,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/BostonMarathon/reals/boston_real_17.jpg,0,boston,dev
+boston_real_18,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/BostonMarathon/reals/boston_real_18.jpg,0,boston,dev
+boston_real_19,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/BostonMarathon/reals/boston_real_19.png,0,boston,dev
+boston_real_20,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/BostonMarathon/reals/boston_real_20.jpg,0,boston,dev
+boston_real_21,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/BostonMarathon/reals/boston_real_21.jpg,0,boston,dev
+boston_real_22,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/BostonMarathon/reals/boston_real_22.jpg,0,boston,dev
+boston_real_23,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/BostonMarathon/reals/boston_real_23.jpg,0,boston,dev
+boston_real_24,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/BostonMarathon/reals/boston_real_24.jpg,0,boston,dev
+boston_real_25,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/BostonMarathon/reals/boston_real_25.jpg,0,boston,dev
+boston_real_26,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/BostonMarathon/reals/boston_real_26.jpg,0,boston,dev
+boston_real_27,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/BostonMarathon/reals/boston_real_27.jpg,0,boston,dev
+boston_real_28,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/BostonMarathon/reals/boston_real_28.jpg,0,boston,dev
+boston_real_29,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/BostonMarathon/reals/boston_real_29.jpg,0,boston,dev
+bringback_fake_01,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Bring Back Our Girls/fakes/bringback_fake_01.jpg,1,bringback,dev
+bringback_fake_02,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Bring Back Our Girls/fakes/bringback_fake_02.jpg,1,bringback,dev
+bringback_fake_03,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Bring Back Our Girls/fakes/bringback_fake_03.jpg,1,bringback,dev
+bringback_fake_04,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Bring Back Our Girls/fakes/bringback_fake_04.jpg,1,bringback,dev
+bringback_fake_05,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Bring Back Our Girls/fakes/bringback_fake_05.jpg,1,bringback,dev
+bringback_fake_06,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Bring Back Our Girls/fakes/bringback_fake_06.jpg,1,bringback,dev
+bringback_fake_07,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Bring Back Our Girls/fakes/bringback_fake_07.jpg,1,bringback,dev
+columbianChemicals_fake_01,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Columbian Chemicals/fakes/columbianChemicals_fake_01.jpg,1,columbianchemicals,dev
+columbianChemicals_fake_02,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Columbian Chemicals/fakes/columbianChemicals_fake_02.jpg,1,columbianchemicals,dev
+columbianChemicals_fake_03,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Columbian Chemicals/fakes/columbianChemicals_fake_03.jpg,1,columbianchemicals,dev
+columbianChemicals_fake_04,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Columbian Chemicals/fakes/columbianChemicals_fake_04.jpg,1,columbianchemicals,dev
+columbianChemicals_fake_05,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Columbian Chemicals/fakes/columbianChemicals_fake_05.png,1,columbianchemicals,dev
+columbianChemicals_fake_06,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Columbian Chemicals/fakes/columbianChemicals_fake_06.jpg,1,columbianchemicals,dev
+columbianChemicals_fake_07,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Columbian Chemicals/fakes/columbianChemicals_fake_07.jpg,1,columbianchemicals,dev
+columbianChemicals_fake_08,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Columbian Chemicals/fakes/columbianChemicals_fake_08.jpg,1,columbianchemicals,dev
+columbianChemicals_fake_09,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Columbian Chemicals/fakes/columbianChemicals_fake_09.png,1,columbianchemicals,dev
+columbianChemicals_fake_10,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Columbian Chemicals/fakes/columbianChemicals_fake_10.jpg,1,columbianchemicals,dev
+columbianChemicals_fake_11,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Columbian Chemicals/fakes/columbianChemicals_fake_11.png,1,columbianchemicals,dev
+columbianChemicals_fake_12,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Columbian Chemicals/fakes/columbianChemicals_fake_12.jpg,1,columbianchemicals,dev
+columbianChemicals_fake_13,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Columbian Chemicals/fakes/columbianChemicals_fake_13.jpg,1,columbianchemicals,dev
+columbianChemicals_fake_14,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Columbian Chemicals/fakes/columbianChemicals_fake_14.jpg,1,columbianchemicals,dev
+columbianChemicals_fake_15,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Columbian Chemicals/fakes/columbianChemicals_fake_15.jpg,1,columbianchemicals,dev
+elephant_fake_01,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Rock Elephant/fakes/elephant_fake_01.jpg,1,elephant,dev
+livr_01,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Livr/fakes/livr_01.jpg,1,livr,dev
+livr_02,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Livr/fakes/livr_02.jpg,1,livr,dev
+livr_03,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Livr/fakes/livr_03.jpg,1,livr,dev
+livr_04,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Livr/fakes/livr_04.jpg,1,livr,dev
+malaysia_fake_01,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Malaysia Airlines/malaysia_fake_01.jpg,1,malaysia,dev
+malaysia_fake_02,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Malaysia Airlines/malaysia_fake_02.jpg,1,malaysia,dev
+malaysia_fake_03,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Malaysia Airlines/malaysia_fake_03.jpg,1,malaysia,dev
+malaysia_fake_04,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Malaysia Airlines/malaysia_fake_04.jpg,1,malaysia,dev
+malaysia_fake_06,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Malaysia Airlines/malaysia_fake_06.jpg,1,malaysia,dev
+malaysia_fake_07,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Malaysia Airlines/malaysia_fake_07.jpg,1,malaysia,dev
+malaysia_fake_08,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Malaysia Airlines/malaysia_fake_08.jpg,1,malaysia,dev
+malaysia_fake_09,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Malaysia Airlines/malaysia_fake_09.jpg,1,malaysia,dev
+malaysia_fake_11,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Malaysia Airlines/malaysia_fake_11.jpg,1,malaysia,dev
+malaysia_fake_12,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Malaysia Airlines/malaysia_fake_12.jpg,1,malaysia,dev
+malaysia_fake_13,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Malaysia Airlines/malaysia_fake_13.jpg,1,malaysia,dev
+malaysia_fake_14,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Malaysia Airlines/malaysia_fake_14.jpg,1,malaysia,dev
+malaysia_fake_15,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Malaysia Airlines/malaysia_fake_15.jpg,1,malaysia,dev
+malaysia_fake_16,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Malaysia Airlines/malaysia_fake_16.jpg,1,malaysia,dev
+malaysia_fake_17,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Malaysia Airlines/malaysia_fake_17.png,1,malaysia,dev
+malaysia_fake_18,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Malaysia Airlines/malaysia_fake_18.jpg,1,malaysia,dev
+malaysia_fake_19,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Malaysia Airlines/malaysia_fake_19.png,1,malaysia,dev
+malaysia_fake_20,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Malaysia Airlines/malaysia_fake_20.jpg,1,malaysia,dev
+malaysia_fake_21,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Malaysia Airlines/malaysia_fake_21.jpg,1,malaysia,dev
+malaysia_fake_22,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Malaysia Airlines/malaysia_fake_22.jpg,1,malaysia,dev
+malaysia_fake_23,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Malaysia Airlines/malaysia_fake_23.jpg,1,malaysia,dev
+malaysia_fake_24,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Malaysia Airlines/malaysia_fake_24.jpg,1,malaysia,dev
+malaysia_fake_25,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Malaysia Airlines/malaysia_fake_25.jpg,1,malaysia,dev
+malaysia_fake_26,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Malaysia Airlines/malaysia_fake_26.jpg,1,malaysia,dev
+malaysia_fake_27,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Malaysia Airlines/malaysia_fake_27.jpg,1,malaysia,dev
+malaysia_fake_28,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Malaysia Airlines/malaysia_fake_28.jpg,1,malaysia,dev
+malaysia_fake_29,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Malaysia Airlines/malaysia_fake_29.jpg,1,malaysia,dev
+passport_01,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Passport/fakes/passport_01.jpg,1,passport,dev
+passport_02,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Passport/fakes/passport_02.jpg,1,passport,dev
+pigFish_01,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Pig Fish/fakes/pigFish_01.jpg,1,pigfish,dev
+sandyA_fake_01,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/fakes/sandyA_fake_01.jpg,1,sandy,dev
+sandyA_fake_02,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/fakes/sandyA_fake_02.jpg,1,sandy,dev
+sandyA_fake_03,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/fakes/sandyA_fake_03.jpg,1,sandy,dev
+sandyA_fake_04,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/fakes/sandyA_fake_04.jpg,1,sandy,dev
+sandyA_fake_05,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/fakes/sandyA_fake_05.jpg,1,sandy,dev
+sandyA_fake_06,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/fakes/sandyA_fake_06.jpg,1,sandy,dev
+sandyA_fake_07,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/fakes/sandyA_fake_07.jpg,1,sandy,dev
+sandyA_fake_08,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/fakes/sandyA_fake_08.jpg,1,sandy,dev
+sandyA_fake_09,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/fakes/sandyA_fake_09.jpg,1,sandy,dev
+sandyA_fake_10,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/fakes/sandyA_fake_10.jpg,1,sandy,dev
+sandyA_fake_11,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/fakes/sandyA_fake_11.jpg,1,sandy,dev
+sandyA_fake_12,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/fakes/sandyA_fake_12.jpg,1,sandy,dev
+sandyA_fake_13,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/fakes/sandyA_fake_13.jpg,1,sandy,dev
+sandyA_fake_14,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/fakes/sandyA_fake_14.jpg,1,sandy,dev
+sandyA_fake_15,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/fakes/sandyA_fake_15.jpg,1,sandy,dev
+sandyA_fake_16,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/fakes/sandyA_fake_16.jpg,1,sandy,dev
+sandyA_fake_17,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/fakes/sandyA_fake_17.jpg,1,sandy,dev
+sandyA_fake_18,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/fakes/sandyA_fake_18.jpg,1,sandy,dev
+sandyA_fake_19,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/fakes/sandyA_fake_19.jpg,1,sandy,dev
+sandyA_fake_20,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/fakes/sandyA_fake_20.jpg,1,sandy,dev
+sandyA_fake_21,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/fakes/sandyA_fake_21.jpg,1,sandy,dev
+sandyA_fake_22,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/fakes/sandyA_fake_22.jpg,1,sandy,dev
+sandyA_fake_23,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/fakes/sandyA_fake_23.jpg,1,sandy,dev
+sandyA_fake_24,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/fakes/sandyA_fake_24.jpg,1,sandy,dev
+sandyA_fake_25,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/fakes/sandyA_fake_25.jpg,1,sandy,dev
+sandyA_fake_26,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/fakes/sandyA_fake_26.jpg,1,sandy,dev
+sandyA_fake_27,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/fakes/sandyA_fake_27.jpg,1,sandy,dev
+sandyA_fake_28,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/fakes/sandyA_fake_28.jpg,1,sandy,dev
+sandyA_fake_29,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/fakes/sandyA_fake_29.jpg,1,sandy,dev
+sandyA_fake_30,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/fakes/sandyA_fake_30.jpg,1,sandy,dev
+sandyA_fake_31,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/fakes/sandyA_fake_31.jpg,1,sandy,dev
+sandyA_fake_32,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/fakes/sandyA_fake_32.jpg,1,sandy,dev
+sandyA_fake_33,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/fakes/sandyA_fake_33.jpg,1,sandy,dev
+sandyA_fake_34,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/fakes/sandyA_fake_34.jpg,1,sandy,dev
+sandyA_fake_35,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/fakes/sandyA_fake_35.jpg,1,sandy,dev
+sandyA_fake_36,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/fakes/sandyA_fake_36.jpeg,1,sandy,dev
+sandyA_fake_37,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/fakes/sandyA_fake_37.jpg,1,sandy,dev
+sandyA_fake_38,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/fakes/sandyA_fake_38.jpg,1,sandy,dev
+sandyA_fake_39,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/fakes/sandyA_fake_39.jpg,1,sandy,dev
+sandyA_fake_40,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/fakes/sandyA_fake_40.jpg,1,sandy,dev
+sandyA_fake_41,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/fakes/sandyA_fake_41.jpg,1,sandy,dev
+sandyA_fake_42,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/fakes/sandyA_fake_42.jpg,1,sandy,dev
+sandyA_fake_43,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/fakes/sandyA_fake_43.jpg,1,sandy,dev
+sandyA_fake_44,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/fakes/sandyA_fake_44.jpg,1,sandy,dev
+sandyA_fake_45,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/fakes/sandyA_fake_45.jpg,1,sandy,dev
+sandyA_fake_46,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/fakes/sandyA_fake_46.jpg,1,sandy,dev
+sandyA_fake_47,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/fakes/sandyA_fake_47.jpg,1,sandy,dev
+sandyA_fake_48,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/fakes/sandyA_fake_48.jpg,1,sandy,dev
+sandyA_fake_49,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/fakes/sandyA_fake_49.jpg,1,sandy,dev
+sandyA_real_01,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyA_real_01.jpg,0,sandy,dev
+sandyA_real_02,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyA_real_02.jpg,0,sandy,dev
+sandyA_real_03,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyA_real_03.jpg,0,sandy,dev
+sandyA_real_04,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyA_real_04.jpg,0,sandy,dev
+sandyA_real_05,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyA_real_05.jpg,0,sandy,dev
+sandyA_real_06,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyA_real_06.jpg,0,sandy,dev
+sandyA_real_07,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyA_real_07.jpg,0,sandy,dev
+sandyA_real_08,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyA_real_08.jpg,0,sandy,dev
+sandyA_real_09,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyA_real_09.jpg,0,sandy,dev
+sandyA_real_10,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyA_real_10.jpg,0,sandy,dev
+sandyA_real_11,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyA_real_11.jpg,0,sandy,dev
+sandyA_real_12,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyA_real_12.jpg,0,sandy,dev
+sandyA_real_13,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyA_real_13.jpg,0,sandy,dev
+sandyA_real_14,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyA_real_14.png,0,sandy,dev
+sandyA_real_15,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyA_real_15.jpg,0,sandy,dev
+sandyA_real_16,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyA_real_16.jpg,0,sandy,dev
+sandyA_real_17,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyA_real_17.jpg,0,sandy,dev
+sandyA_real_18,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyA_real_18.jpg,0,sandy,dev
+sandyA_real_19,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyA_real_19.jpg,0,sandy,dev
+sandyA_real_20,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyA_real_20.jpg,0,sandy,dev
+sandyA_real_21,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyA_real_21.jpg,0,sandy,dev
+sandyA_real_22,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyA_real_22.jpg,0,sandy,dev
+sandyA_real_23,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyA_real_23.jpg,0,sandy,dev
+sandyA_real_24,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyA_real_24.jpg,0,sandy,dev
+sandyA_real_25,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyA_real_25.jpg,0,sandy,dev
+sandyA_real_26,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyA_real_26.jpg,0,sandy,dev
+sandyA_real_27,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyA_real_27.jpg,0,sandy,dev
+sandyA_real_28,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyA_real_28.jpg,0,sandy,dev
+sandyA_real_29,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyA_real_29.jpg,0,sandy,dev
+sandyA_real_30,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyA_real_30.jpg,0,sandy,dev
+sandyA_real_31,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyA_real_31.jpg,0,sandy,dev
+sandyA_real_32,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyA_real_32.jpg,0,sandy,dev
+sandyA_real_33,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyA_real_33.jpg,0,sandy,dev
+sandyA_real_34,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyA_real_34.jpg,0,sandy,dev
+sandyA_real_35,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyA_real_35.jpg,0,sandy,dev
+sandyA_real_36,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyA_real_36.jpg,0,sandy,dev
+sandyA_real_37,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyA_real_37.jpg,0,sandy,dev
+sandyA_real_38,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyA_real_38.jpg,0,sandy,dev
+sandyA_real_39,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyA_real_39.jpg,0,sandy,dev
+sandyA_real_40,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyA_real_40.jpg,0,sandy,dev
+sandyA_real_41,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyA_real_41.jpg,0,sandy,dev
+sandyA_real_42,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyA_real_42.jpg,0,sandy,dev
+sandyA_real_43,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyA_real_43.jpg,0,sandy,dev
+sandyA_real_44,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyA_real_44.jpg,0,sandy,dev
+sandyA_real_45,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyA_real_45.jpg,0,sandy,dev
+sandyA_real_46,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyA_real_46.jpg,0,sandy,dev
+sandyA_real_47,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyA_real_47.jpg,0,sandy,dev
+sandyA_real_48,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyA_real_48.jpg,0,sandy,dev
+sandyA_real_49,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyA_real_49.jpg,0,sandy,dev
+sandyA_real_50,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyA_real_50.jpg,0,sandy,dev
+sandyA_real_51,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyA_real_51.jpg,0,sandy,dev
+sandyA_real_52,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyA_real_52.jpg,0,sandy,dev
+sandyA_real_53,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyA_real_53.jpg,0,sandy,dev
+sandyA_real_54,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyA_real_54.jpg,0,sandy,dev
+sandyA_real_55,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyA_real_55.jpg,0,sandy,dev
+sandyA_real_56,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyA_real_56.jpg,0,sandy,dev
+sandyA_real_58,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyA_real_58.jpg,0,sandy,dev
+sandyA_real_59,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyA_real_59.png,0,sandy,dev
+sandyA_real_60,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyA_real_60.jpg,0,sandy,dev
+sandyA_real_61,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyA_real_61.jpg,0,sandy,dev
+sandyA_real_62,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyA_real_62.jpg,0,sandy,dev
+sandyB_fake_01,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/fakes/sandyB_fake_01.jpg,1,sandy,dev
+sandyB_fake_02,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/fakes/sandyB_fake_02.jpg,1,sandy,dev
+sandyB_fake_03,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/fakes/sandyB_fake_03.jpg,1,sandy,dev
+sandyB_fake_04,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/fakes/sandyB_fake_04.jpg,1,sandy,dev
+sandyB_fake_05,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/fakes/sandyB_fake_05.jpg,1,sandy,dev
+sandyB_fake_06,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/fakes/sandyB_fake_06.jpg,1,sandy,dev
+sandyB_fake_07,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/fakes/sandyB_fake_07.jpg,1,sandy,dev
+sandyB_fake_08,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/fakes/sandyB_fake_08.jpg,1,sandy,dev
+sandyB_fake_10,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/fakes/sandyB_fake_10.jpg,1,sandy,dev
+sandyB_fake_11,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/fakes/sandyB_fake_11.jpg,1,sandy,dev
+sandyB_fake_12,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/fakes/sandyB_fake_12.jpg,1,sandy,dev
+sandyB_fake_13,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/fakes/sandyB_fake_13.jpg,1,sandy,dev
+sandyB_fake_14,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/fakes/sandyB_fake_14.jpg,1,sandy,dev
+sandyB_real_01,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyB_real_01.jpg,0,sandy,dev
+sandyB_real_02,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyB_real_02.jpg,0,sandy,dev
+sandyB_real_04,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyB_real_04.jpg,0,sandy,dev
+sandyB_real_07,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyB_real_07.jpg,0,sandy,dev
+sandyB_real_08,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyB_real_08.jpg,0,sandy,dev
+sandyB_real_09,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyB_real_09.png,0,sandy,dev
+sandyB_real_10,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyB_real_10.png,0,sandy,dev
+sandyB_real_100,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyB_real_100.jpg,0,sandy,dev
+sandyB_real_101,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyB_real_101.jpg,0,sandy,dev
+sandyB_real_102,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyB_real_102.jpg,0,sandy,dev
+sandyB_real_11,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyB_real_11.jpg,0,sandy,dev
+sandyB_real_12,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyB_real_12.jpg,0,sandy,dev
+sandyB_real_13,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyB_real_13.jpg,0,sandy,dev
+sandyB_real_14,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyB_real_14.jpg,0,sandy,dev
+sandyB_real_16,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyB_real_16.jpg,0,sandy,dev
+sandyB_real_17,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyB_real_17.jpg,0,sandy,dev
+sandyB_real_18,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyB_real_18.jpg,0,sandy,dev
+sandyB_real_19,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyB_real_19.jpg,0,sandy,dev
+sandyB_real_20,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyB_real_20.jpg,0,sandy,dev
+sandyB_real_21,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyB_real_21.jpg,0,sandy,dev
+sandyB_real_22,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyB_real_22.jpg,0,sandy,dev
+sandyB_real_23,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyB_real_23.jpg,0,sandy,dev
+sandyB_real_24,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyB_real_24.jpg,0,sandy,dev
+sandyB_real_25,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyB_real_25.jpg,0,sandy,dev
+sandyB_real_26,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyB_real_26.jpg,0,sandy,dev
+sandyB_real_27,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyB_real_27.jpg,0,sandy,dev
+sandyB_real_28,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyB_real_28.jpg,0,sandy,dev
+sandyB_real_29,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyB_real_29.jpg,0,sandy,dev
+sandyB_real_31,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyB_real_31.jpg,0,sandy,dev
+sandyB_real_33,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyB_real_33.jpg,0,sandy,dev
+sandyB_real_34,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyB_real_34.jpg,0,sandy,dev
+sandyB_real_35,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyB_real_35.jpg,0,sandy,dev
+sandyB_real_36,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyB_real_36.jpg,0,sandy,dev
+sandyB_real_37,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyB_real_37.jpg,0,sandy,dev
+sandyB_real_38,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyB_real_38.jpg,0,sandy,dev
+sandyB_real_39,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyB_real_39.jpg,0,sandy,dev
+sandyB_real_41,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyB_real_41.jpg,0,sandy,dev
+sandyB_real_42,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyB_real_42.jpg,0,sandy,dev
+sandyB_real_43,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyB_real_43.jpg,0,sandy,dev
+sandyB_real_44,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyB_real_44.jpg,0,sandy,dev
+sandyB_real_45,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyB_real_45.jpg,0,sandy,dev
+sandyB_real_46,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyB_real_46.jpg,0,sandy,dev
+sandyB_real_47,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyB_real_47.jpg,0,sandy,dev
+sandyB_real_48,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyB_real_48.jpg,0,sandy,dev
+sandyB_real_49,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyB_real_49.jpg,0,sandy,dev
+sandyB_real_50,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyB_real_50.jpg,0,sandy,dev
+sandyB_real_51,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyB_real_51.jpg,0,sandy,dev
+sandyB_real_52,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyB_real_52.jpg,0,sandy,dev
+sandyB_real_53,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyB_real_53.jpg,0,sandy,dev
+sandyB_real_54,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyB_real_54.jpg,0,sandy,dev
+sandyB_real_55,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyB_real_55.jpg,0,sandy,dev
+sandyB_real_56,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyB_real_56.jpg,0,sandy,dev
+sandyB_real_57,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyB_real_57.jpg,0,sandy,dev
+sandyB_real_58,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyB_real_58.jpg,0,sandy,dev
+sandyB_real_59,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyB_real_59.jpg,0,sandy,dev
+sandyB_real_60,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyB_real_60.jpg,0,sandy,dev
+sandyB_real_63,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyB_real_63.jpg,0,sandy,dev
+sandyB_real_64,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyB_real_64.jpg,0,sandy,dev
+sandyB_real_65,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyB_real_65.jpg,0,sandy,dev
+sandyB_real_68,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyB_real_68.jpg,0,sandy,dev
+sandyB_real_69,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyB_real_69.jpg,0,sandy,dev
+sandyB_real_70,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyB_real_70.jpg,0,sandy,dev
+sandyB_real_71,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyB_real_71.jpg,0,sandy,dev
+sandyB_real_72,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyB_real_72.jpg,0,sandy,dev
+sandyB_real_73,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyB_real_73.jpg,0,sandy,dev
+sandyB_real_74,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyB_real_74.jpg,0,sandy,dev
+sandyB_real_75,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyB_real_75.jpg,0,sandy,dev
+sandyB_real_76,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyB_real_76.jpg,0,sandy,dev
+sandyB_real_78,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyB_real_78.jpg,0,sandy,dev
+sandyB_real_80,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyB_real_80.jpg,0,sandy,dev
+sandyB_real_81,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyB_real_81.jpg,0,sandy,dev
+sandyB_real_82,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyB_real_82.jpg,0,sandy,dev
+sandyB_real_83,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyB_real_83.jpg,0,sandy,dev
+sandyB_real_84,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyB_real_84.jpg,0,sandy,dev
+sandyB_real_85,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyB_real_85.jpg,0,sandy,dev
+sandyB_real_86,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyB_real_86.jpg,0,sandy,dev
+sandyB_real_88,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyB_real_88.jpg,0,sandy,dev
+sandyB_real_89,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyB_real_89.jpg,0,sandy,dev
+sandyB_real_90,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyB_real_90.png,0,sandy,dev
+sandyB_real_91,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyB_real_91.jpg,0,sandy,dev
+sandyB_real_92,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyB_real_92.jpg,0,sandy,dev
+sandyB_real_93,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyB_real_93.jpg,0,sandy,dev
+sandyB_real_94,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyB_real_94.jpg,0,sandy,dev
+sandyB_real_95,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyB_real_95.jpg,0,sandy,dev
+sandyB_real_96,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyB_real_96.jpg,0,sandy,dev
+sandyB_real_98,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyB_real_98.jpg,0,sandy,dev
+sandyB_real_99,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Hurricane Sandy/reals/sandyB_real_99.jpg,0,sandy,dev
+sochi_fake_0,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Sochi Olympics/fakes/sochi_fake_0.jpg,1,sochi,dev
+sochi_fake_1,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Sochi Olympics/fakes/sochi_fake_1.jpg,1,sochi,dev
+sochi_fake_10,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Sochi Olympics/fakes/sochi_fake_10.jpg,1,sochi,dev
+sochi_fake_11,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Sochi Olympics/fakes/sochi_fake_11.jpg,1,sochi,dev
+sochi_fake_12,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Sochi Olympics/fakes/sochi_fake_12.jpg,1,sochi,dev
+sochi_fake_13,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Sochi Olympics/fakes/sochi_fake_13.jpg,1,sochi,dev
+sochi_fake_14,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Sochi Olympics/fakes/sochi_fake_14.jpg,1,sochi,dev
+sochi_fake_15,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Sochi Olympics/fakes/sochi_fake_15.jpg,1,sochi,dev
+sochi_fake_16,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Sochi Olympics/fakes/sochi_fake_16.jpg,1,sochi,dev
+sochi_fake_17,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Sochi Olympics/fakes/sochi_fake_17.jpg,1,sochi,dev
+sochi_fake_18,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Sochi Olympics/fakes/sochi_fake_18.jpg,1,sochi,dev
+sochi_fake_19,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Sochi Olympics/fakes/sochi_fake_19.png,1,sochi,dev
+sochi_fake_2,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Sochi Olympics/fakes/sochi_fake_2.jpg,1,sochi,dev
+sochi_fake_20,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Sochi Olympics/fakes/sochi_fake_20.jpg,1,sochi,dev
+sochi_fake_21,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Sochi Olympics/fakes/sochi_fake_21.jpg,1,sochi,dev
+sochi_fake_22,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Sochi Olympics/fakes/sochi_fake_22.jpg,1,sochi,dev
+sochi_fake_23,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Sochi Olympics/fakes/sochi_fake_23.jpg,1,sochi,dev
+sochi_fake_24,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Sochi Olympics/fakes/sochi_fake_24.jpg,1,sochi,dev
+sochi_fake_25,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Sochi Olympics/fakes/sochi_fake_25.jpg,1,sochi,dev
+sochi_fake_3,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Sochi Olympics/fakes/sochi_fake_3.jpg,1,sochi,dev
+sochi_fake_4,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Sochi Olympics/fakes/sochi_fake_4.jpg,1,sochi,dev
+sochi_fake_5,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Sochi Olympics/fakes/sochi_fake_5.jpg,1,sochi,dev
+sochi_fake_6,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Sochi Olympics/fakes/sochi_fake_6.jpg,1,sochi,dev
+sochi_fake_7,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Sochi Olympics/fakes/sochi_fake_7.jpg,1,sochi,dev
+sochi_fake_8,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Sochi Olympics/fakes/sochi_fake_8.jpg,1,sochi,dev
+sochi_fake_9,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Sochi Olympics/fakes/sochi_fake_9.jpg,1,sochi,dev
+underwater_fake_01,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Underwater bedroom/fakes/underwater_fake_01.jpg,1,underwater,dev
+underwater_fake_02,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Underwater bedroom/fakes/underwater_fake_02.jpg,1,underwater,dev
+underwater_fake_03,data/raw/mediaeval/img2015dev/Medieval2015_DevSet_Images/Underwater bedroom/fakes/underwater_fake_03.jpg,1,underwater,dev
+eclipse_01,data/raw/mediaeval/img2015test/TestSetImages/Solar_eclipse/eclipse_01.jpg,1,eclipse,test2015
+eclipse_02,data/raw/mediaeval/img2015test/TestSetImages/Solar_eclipse/eclipse_02.jpg,1,eclipse,test2015
+eclipse_03,data/raw/mediaeval/img2015test/TestSetImages/Solar_eclipse/eclipse_03.jpg,1,eclipse,test2015
+eclipse_04,data/raw/mediaeval/img2015test/TestSetImages/Solar_eclipse/eclipse_04.jpg,1,eclipse,test2015
+eclipse_05,data/raw/mediaeval/img2015test/TestSetImages/Solar_eclipse/eclipse_05.jpg,1,eclipse,test2015
+eclipse_06,data/raw/mediaeval/img2015test/TestSetImages/Solar_eclipse/eclipse_06.jpg,1,eclipse,test2015
+eclipse_07,data/raw/mediaeval/img2015test/TestSetImages/Solar_eclipse/eclipse_07.jpg,0,eclipse,test2015
+eclipse_08,data/raw/mediaeval/img2015test/TestSetImages/Solar_eclipse/eclipse_08.jpg,0,eclipse,test2015
+eclipse_09,data/raw/mediaeval/img2015test/TestSetImages/Solar_eclipse/eclipse_09.jpg,0,eclipse,test2015
+eclipse_10,data/raw/mediaeval/img2015test/TestSetImages/Solar_eclipse/eclipse_10.jpg,0,eclipse,test2015
+garissa_01,data/raw/mediaeval/img2015test/TestSetImages/Garissa_Attack/garissa_01.jpg,1,garissa,test2015
+garissa_02,data/raw/mediaeval/img2015test/TestSetImages/Garissa_Attack/garissa_02.jpg,1,garissa,test2015
+garissa_03,data/raw/mediaeval/img2015test/TestSetImages/Garissa_Attack/garissa_03.jpg,0,garissa,test2015
+garissa_04,data/raw/mediaeval/img2015test/TestSetImages/Garissa_Attack/garissa_04.jpg,0,garissa,test2015
+nepal_01,data/raw/mediaeval/img2015test/TestSetImages/Nepal_earthquake/nepal_01.jpg,1,nepal,test2015
+nepal_02,data/raw/mediaeval/img2015test/TestSetImages/Nepal_earthquake/nepal_02.jpg,1,nepal,test2015
+nepal_03,data/raw/mediaeval/img2015test/TestSetImages/Nepal_earthquake/nepal_03.jpg,1,nepal,test2015
+nepal_04,data/raw/mediaeval/img2015test/TestSetImages/Nepal_earthquake/nepal_04.jpg,1,nepal,test2015
+nepal_05,data/raw/mediaeval/img2015test/TestSetImages/Nepal_earthquake/nepal_05.jpg,1,nepal,test2015
+nepal_06,data/raw/mediaeval/img2015test/TestSetImages/Nepal_earthquake/nepal_06.jpg,1,nepal,test2015
+nepal_07,data/raw/mediaeval/img2015test/TestSetImages/Nepal_earthquake/nepal_07.jpg,1,nepal,test2015
+nepal_08,data/raw/mediaeval/img2015test/TestSetImages/Nepal_earthquake/nepal_08.jpg,1,nepal,test2015
+nepal_09,data/raw/mediaeval/img2015test/TestSetImages/Nepal_earthquake/nepal_09.jpg,1,nepal,test2015
+nepal_10,data/raw/mediaeval/img2015test/TestSetImages/Nepal_earthquake/nepal_10.jpg,1,nepal,test2015
+nepal_12,data/raw/mediaeval/img2015test/TestSetImages/Nepal_earthquake/nepal_12.jpg,1,nepal,test2015
+nepal_13,data/raw/mediaeval/img2015test/TestSetImages/Nepal_earthquake/nepal_13.jpg,1,nepal,test2015
+nepal_14,data/raw/mediaeval/img2015test/TestSetImages/Nepal_earthquake/nepal_14.jpg,1,nepal,test2015
+nepal_15,data/raw/mediaeval/img2015test/TestSetImages/Nepal_earthquake/nepal_15.jpg,1,nepal,test2015
+nepal_16,data/raw/mediaeval/img2015test/TestSetImages/Nepal_earthquake/nepal_16.jpg,1,nepal,test2015
+nepal_17,data/raw/mediaeval/img2015test/TestSetImages/Nepal_earthquake/nepal_17.jpg,1,nepal,test2015
+nepal_18,data/raw/mediaeval/img2015test/TestSetImages/Nepal_earthquake/nepal_18.jpg,1,nepal,test2015
+nepal_19,data/raw/mediaeval/img2015test/TestSetImages/Nepal_earthquake/nepal_19.jpg,1,nepal,test2015
+nepal_20,data/raw/mediaeval/img2015test/TestSetImages/Nepal_earthquake/nepal_20.jpg,1,nepal,test2015
+nepal_21,data/raw/mediaeval/img2015test/TestSetImages/Nepal_earthquake/nepal_21.jpg,1,nepal,test2015
+nepal_22,data/raw/mediaeval/img2015test/TestSetImages/Nepal_earthquake/nepal_22.jpg,0,nepal,test2015
+nepal_23,data/raw/mediaeval/img2015test/TestSetImages/Nepal_earthquake/nepal_23.jpg,0,nepal,test2015
+nepal_24,data/raw/mediaeval/img2015test/TestSetImages/Nepal_earthquake/nepal_24.jpg,0,nepal,test2015
+nepal_25,data/raw/mediaeval/img2015test/TestSetImages/Nepal_earthquake/nepal_25.jpg,0,nepal,test2015
+nepal_26,data/raw/mediaeval/img2015test/TestSetImages/Nepal_earthquake/nepal_26.jpg,0,nepal,test2015
+nepal_27,data/raw/mediaeval/img2015test/TestSetImages/Nepal_earthquake/nepal_27.jpg,0,nepal,test2015
+nepal_28,data/raw/mediaeval/img2015test/TestSetImages/Nepal_earthquake/nepal_28.jpg,0,nepal,test2015
+nepal_29,data/raw/mediaeval/img2015test/TestSetImages/Nepal_earthquake/nepal_29.jpg,0,nepal,test2015
+nepal_30,data/raw/mediaeval/img2015test/TestSetImages/Nepal_earthquake/nepal_30.jpg,0,nepal,test2015
+nepal_31,data/raw/mediaeval/img2015test/TestSetImages/Nepal_earthquake/nepal_31.jpg,0,nepal,test2015
+nepal_32,data/raw/mediaeval/img2015test/TestSetImages/Nepal_earthquake/nepal_32.jpg,0,nepal,test2015
+samurai_01,data/raw/mediaeval/img2015test/TestSetImages/Samurai_ghost/samurai_01.jpg,1,samurai,test2015
+samurai_02,data/raw/mediaeval/img2015test/TestSetImages/Samurai_ghost/samurai_02.jpg,1,samurai,test2015
+samurai_04,data/raw/mediaeval/img2015test/TestSetImages/Samurai_ghost/samurai_04.jpg,1,samurai,test2015
+attacks_paris_1,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/attacks_paris_1.jpg,1,attacks_paris,test2016
+attacks_paris_10,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/attacks_paris_10.jpg,0,attacks_paris,test2016
+attacks_paris_11,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/attacks_paris_11.jpg,0,attacks_paris,test2016
+attacks_paris_12,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/attacks_paris_12.jpg,0,attacks_paris,test2016
+attacks_paris_13,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/attacks_paris_13.png,0,attacks_paris,test2016
+attacks_paris_14,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/attacks_paris_14.jpg,0,attacks_paris,test2016
+attacks_paris_15,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/attacks_paris_15.jpg,0,attacks_paris,test2016
+attacks_paris_17,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/attacks_paris_17.jpg,0,attacks_paris,test2016
+attacks_paris_18,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/attacks_paris_18.jpg,0,attacks_paris,test2016
+attacks_paris_19,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/attacks_paris_19.jpg,0,attacks_paris,test2016
+attacks_paris_2,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/attacks_paris_2.jpg,1,attacks_paris,test2016
+attacks_paris_20,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/attacks_paris_20.jpg,0,attacks_paris,test2016
+attacks_paris_21,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/attacks_paris_21.jpg,0,attacks_paris,test2016
+attacks_paris_22,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/attacks_paris_22.png,0,attacks_paris,test2016
+attacks_paris_23,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/attacks_paris_23.jpg,0,attacks_paris,test2016
+attacks_paris_25,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/attacks_paris_25.jpg,1,attacks_paris,test2016
+attacks_paris_3,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/attacks_paris_3.jpg,0,attacks_paris,test2016
+attacks_paris_4,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/attacks_paris_4.jpg,0,attacks_paris,test2016
+attacks_paris_5,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/attacks_paris_5.jpg,0,attacks_paris,test2016
+attacks_paris_6,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/attacks_paris_6.jpg,0,attacks_paris,test2016
+attacks_paris_8,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/attacks_paris_8.jpg,0,attacks_paris,test2016
+attacks_paris_9,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/attacks_paris_9.jpg,0,attacks_paris,test2016
+black_lion_1,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/black_lion_1.jpg,1,black_lion,test2016
+bowie_david_1,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/bowie_david_1.jpg,1,bowie_david,test2016
+bowie_david_2,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/bowie_david_2.jpg,1,bowie_david,test2016
+bowie_david_3,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/bowie_david_3.jpg,0,bowie_david,test2016
+bowie_david_4,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/bowie_david_4.jpg,0,bowie_david,test2016
+bowie_david_5,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/bowie_david_5.png,0,bowie_david,test2016
+bowie_david_6,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/bowie_david_6.jpg,0,bowie_david,test2016
+brussels_explosions_5,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/brussels_explosions_5.jpg,0,brussels_explosions,test2016
+burst_kfc_1,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/burst_kfc_1.jpg,1,burst_kfc,test2016
+bush_book_1,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/bush_book_1.jpg,1,bush_book,test2016
+five_headed_snake_1,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/five_headed_snake_1.jpg,1,five_headed_snake,test2016
+five_headed_snake_2,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/five_headed_snake_2.jpg,1,five_headed_snake,test2016
+five_headed_snake_3,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/five_headed_snake_3.jpg,1,five_headed_snake,test2016
+five_headed_snake_4,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/five_headed_snake_4.jpg,1,five_headed_snake,test2016
+five_headed_snake_5,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/five_headed_snake_5.jpg,1,five_headed_snake,test2016
+fuji_lenticular_1,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/fuji_lenticular_1.jpg,1,fuji_lenticular,test2016
+fuji_lenticular_2,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/fuji_lenticular_2.jpg,0,fuji_lenticular,test2016
+gandhi_dancing_1,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/gandhi_dancing_1.jpg,1,gandhi_dancing,test2016
+half_everything_1,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/half_everything_1.jpg,1,half_everything,test2016
+half_everything_2,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/half_everything_2.jpg,1,half_everything,test2016
+half_everything_3,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/half_everything_3.jpg,1,half_everything,test2016
+half_everything_4,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/half_everything_4.jpg,1,half_everything,test2016
+half_everything_5,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/half_everything_5.jpg,1,half_everything,test2016
+half_everything_6,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/half_everything_6.jpg,1,half_everything,test2016
+half_everything_7,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/half_everything_7.jpg,1,half_everything,test2016
+half_everything_8,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/half_everything_8.png,1,half_everything,test2016
+half_everything_9,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/half_everything_9.jpg,1,half_everything,test2016
+hubble_telescope_1,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/hubble_telescope_1.jpg,1,hubble_telescope,test2016
+immigrants_1,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/immigrants_1.jpg,1,immigrants,test2016
+immigrants_2,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/immigrants_2.jpg,1,immigrants,test2016
+immigrants_3,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/immigrants_3.jpg,1,immigrants,test2016
+immigrants_4,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/immigrants_4.jpg,1,immigrants,test2016
+immigrants_5,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/immigrants_5.jpg,1,immigrants,test2016
+immigrants_6,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/immigrants_6.jpg,0,immigrants,test2016
+immigrants_7,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/immigrants_7.jpg,0,immigrants,test2016
+immigrants_8,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/immigrants_8.jpg,0,immigrants,test2016
+john_guevara_1,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/john_guevara_1.jpg,1,john_guevara,test2016
+mc_donalds_fee_1,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/mc_donalds_fee_1.jpg,1,mc_donalds_fee,test2016
+nazi_submarine_1,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/nazi_submarine_1.jpg,1,nazi_submarine,test2016
+nazi_submarine_2,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/nazi_submarine_2.jpg,1,nazi_submarine,test2016
+north_korea_1,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/north_korea_1.jpg,1,north_korea,test2016
+north_korea_2,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/north_korea_2.jpg,1,north_korea,test2016
+not_afraid_1,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/not_afraid_1.jpg,1,not_afraid,test2016
+not_afraid_2,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/not_afraid_2.jpg,1,not_afraid,test2016
+not_afraid_3,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/not_afraid_3.jpg,0,not_afraid,test2016
+not_afraid_4,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/not_afraid_4.jpg,0,not_afraid,test2016
+not_afraid_5,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/not_afraid_5.jpg,0,not_afraid,test2016
+pakistan_explosion_1,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/pakistan_explosion_1.jpg,1,pakistan_explosion,test2016
+protest_1,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/protest_1.jpg,0,protest,test2016
+protest_11,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/protest_11.jpg,0,protest,test2016
+protest_12,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/protest_12.jpg,0,protest,test2016
+protest_2,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/protest_2.jpg,0,protest,test2016
+protest_3,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/protest_3.jpg,1,protest,test2016
+protest_4,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/protest_4.jpg,0,protest,test2016
+protest_5,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/protest_5.jpg,0,protest,test2016
+protest_6,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/protest_6.jpg,0,protest,test2016
+protest_7,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/protest_7.jpg,0,protest,test2016
+protest_8,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/protest_8.jpg,0,protest,test2016
+protest_9,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/protest_9.png,0,protest,test2016
+refugees_1,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/refugees_1.jpg,1,refugees,test2016
+refugees_10,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/refugees_10.jpg,0,refugees,test2016
+refugees_11,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/refugees_11.jpg,0,refugees,test2016
+refugees_12,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/refugees_12.jpg,0,refugees,test2016
+refugees_13,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/refugees_13.jpg,0,refugees,test2016
+refugees_14,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/refugees_14.jpg,0,refugees,test2016
+refugees_15,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/refugees_15.jpg,0,refugees,test2016
+refugees_16,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/refugees_16.jpg,0,refugees,test2016
+refugees_17,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/refugees_17.jpg,1,refugees,test2016
+refugees_2,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/refugees_2.jpg,1,refugees,test2016
+refugees_3,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/refugees_3.jpg,1,refugees,test2016
+refugees_4,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/refugees_4.jpg,0,refugees,test2016
+refugees_5,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/refugees_5.jpg,0,refugees,test2016
+refugees_6,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/refugees_6.jpg,0,refugees,test2016
+refugees_7,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/refugees_7.jpg,0,refugees,test2016
+refugees_8,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/refugees_8.jpg,0,refugees,test2016
+refugees_9,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/refugees_9.jpg,0,refugees,test2016
+rio_moon_1,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/rio_moon_1.jpg,1,rio_moon,test2016
+soldier_stealing_1,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/soldier_stealing_1.jpg,1,soldier_stealing,test2016
+syrian_children_1,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/syrian_children_1.jpg,1,syrian_children,test2016
+ukrainian_nazi_1,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/ukrainian_nazi_1.jpg,1,ukrainian_nazi,test2016
+woman_14_children_1,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/woman_14_children_1.jpg,1,woman_14_children,test2016
+woman_14_children_2,data/raw/mediaeval/img2016test/Mediaeval2016_TestSet_Images/woman_14_children_2.jpg,1,woman_14_children,test2016

@@ -1,0 +1,29 @@
+{% extends "base.html" %}{% block title %}History{% endblock %}
+{% block content %}
+<h1 class="page-title h3">Detection history</h1>
+<form class="row g-2 align-items-end mb-3" method="get">
+  <div class="col-auto"><label class="form-label small mb-0">Modality</label><select name="modality" class="form-select form-select-sm">
+    <option value="">all</option>{% for m in ['text','image','video','multimodal'] %}<option {% if modality==m %}selected{% endif %}>{{ m }}</option>{% endfor %}</select></div>
+  <div class="col-auto"><label class="form-label small mb-0">Verdict</label><select name="verdict" class="form-select form-select-sm">
+    <option value="">all</option>{% for v in ['LIKELY FAKE','LIKELY REAL','UNCERTAIN','INSUFFICIENT EVIDENCE'] %}<option {% if verdict==v %}selected{% endif %}>{{ v }}</option>{% endfor %}</select></div>
+  <div class="col-auto"><button class="btn btn-sm btn-outline-primary">Filter</button></div>
+</form>
+<div class="card"><div class="table-responsive"><table class="table table-hover table-history mb-0 small">
+  <thead><tr><th class="ps-3">#</th><th>Time (UTC)</th><th>Modality</th><th>Input</th><th>Verdict</th><th class="text-end">Score</th><th class="text-end">Text</th><th class="text-end">Image</th><th class="text-end">Video</th><th></th></tr></thead>
+  <tbody>
+  {% for r in rows %}
+  <tr id="row-{{ r.id }}"><td class="ps-3">{{ r.id }}</td><td class="text-nowrap">{{ r.created_at }}</td><td>{{ r.modality }}{% if r.text_kind %} <span class="text-secondary">({{ r.text_kind }})</span>{% endif %}</td>
+    <td style="max-width:320px" class="text-truncate"><a href="{{ url_for('pages.history_detail', det_id=r.id) }}">{{ r.input_summary or r.file_name or '–' }}</a></td>
+    <td><span class="badge badge-verdict {{ 'bg-fake' if r.verdict=='LIKELY FAKE' else 'bg-real' if r.verdict=='LIKELY REAL' else 'bg-unc' if r.verdict=='UNCERTAIN' else 'bg-secondary' }}">{{ r.verdict }}</span></td>
+    {% for v in [r.fused_score, r.text_score, r.image_score, r.video_score] %}<td class="text-end mono">{{ '%.2f'|format(v) if v is not none else '–' }}</td>{% endfor %}
+    <td class="text-end pe-3"><button class="btn btn-sm btn-link text-danger p-0" onclick="delRow({{ r.id }})" aria-label="Delete"><i class="bi bi-trash"></i></button></td></tr>
+  {% else %}<tr><td colspan="10" class="ps-3 text-secondary py-4">No analyses stored yet.</td></tr>{% endfor %}
+  </tbody></table></div></div>
+{% endblock %}
+{% block scripts %}<script>
+async function delRow(id) {
+  if (!confirm("Delete analysis #" + id + "?")) return;
+  const r = await fetch("/api/history/" + id, { method: "DELETE" });
+  if (r.ok) document.getElementById("row-" + id).remove();
+}
+</script>{% endblock %}

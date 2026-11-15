@@ -1,0 +1,304 @@
+{
+  "dataset": "FakeNewsNet titles",
+  "selected_on_val": "logreg_C1",
+  "validation": {
+    "logreg_C0.5": {
+      "n": 3183,
+      "n_fake": 767,
+      "n_real": 2416,
+      "accuracy": 0.8338,
+      "precision_fake": 0.64,
+      "recall_fake": 0.7093,
+      "f1_fake": 0.6729,
+      "f1_macro": 0.7807,
+      "confusion_matrix": [
+        [
+          2110,
+          306
+        ],
+        [
+          223,
+          544
+        ]
+      ],
+      "roc_auc": 0.8613
+    },
+    "logreg_C1": {
+      "n": 3183,
+      "n_fake": 767,
+      "n_real": 2416,
+      "accuracy": 0.8347,
+      "precision_fake": 0.6413,
+      "recall_fake": 0.7132,
+      "f1_fake": 0.6753,
+      "f1_macro": 0.7822,
+      "confusion_matrix": [
+        [
+          2110,
+          306
+        ],
+        [
+          220,
+          547
+        ]
+      ],
+      "roc_auc": 0.8675
+    },
+    "logreg_C2": {
+      "n": 3183,
+      "n_fake": 767,
+      "n_real": 2416,
+      "accuracy": 0.8351,
+      "precision_fake": 0.6427,
+      "recall_fake": 0.7106,
+      "f1_fake": 0.6749,
+      "f1_macro": 0.7822,
+      "confusion_matrix": [
+        [
+          2113,
+          303
+        ],
+        [
+          222,
+          545
+        ]
+      ],
+      "roc_auc": 0.8705
+    },
+    "logreg_C4": {
+      "n": 3183,
+      "n_fake": 767,
+      "n_real": 2416,
+      "accuracy": 0.8347,
+      "precision_fake": 0.645,
+      "recall_fake": 0.6988,
+      "f1_fake": 0.6708,
+      "f1_macro": 0.7803,
+      "confusion_matrix": [
+        [
+          2121,
+          295
+        ],
+        [
+          231,
+          536
+        ]
+      ],
+      "roc_auc": 0.8694
+    },
+    "logreg_C8": {
+      "n": 3183,
+      "n_fake": 767,
+      "n_real": 2416,
+      "accuracy": 0.8322,
+      "precision_fake": 0.6469,
+      "recall_fake": 0.6688,
+      "f1_fake": 0.6577,
+      "f1_macro": 0.7733,
+      "confusion_matrix": [
+        [
+          2136,
+          280
+        ],
+        [
+          254,
+          513
+        ]
+      ],
+      "roc_auc": 0.8648
+    },
+    "complement_nb": {
+      "n": 3183,
+      "n_fake": 767,
+      "n_real": 2416,
+      "accuracy": 0.819,
+      "precision_fake": 0.6037,
+      "recall_fake": 0.7249,
+      "f1_fake": 0.6588,
+      "f1_macro": 0.7678,
+      "confusion_matrix": [
+        [
+          2051,
+          365
+        ],
+        [
+          211,
+          556
+        ]
+      ],
+      "roc_auc": 0.8686
+    },
+    "linear_svm_calibrated": {
+      "n": 3183,
+      "n_fake": 767,
+      "n_real": 2416,
+      "accuracy": 0.8457,
+      "precision_fake": 0.7674,
+      "recall_fake": 0.5163,
+      "f1_fake": 0.6173,
+      "f1_macro": 0.7604,
+      "confusion_matrix": [
+        [
+          2296,
+          120
+        ],
+        [
+          371,
+          396
+        ]
+      ],
+      "roc_auc": 0.8683
+    },
+    "majority_baseline": {
+      "n": 3183,
+      "n_fake": 767,
+      "n_real": 2416,
+      "accuracy": 0.759,
+      "precision_fake": 0.0,
+      "recall_fake": 0.0,
+      "f1_fake": 0.0,
+      "f1_macro": 0.4315,
+      "confusion_matrix": [
+        [
+          2416,
+          0
+        ],
+        [
+          767,
+          0
+        ]
+      ],
+      "roc_auc": 0.5
+    }
+  },
+  "test_deployed": {
+    "n": 3183,
+    "n_fake": 767,
+    "n_real": 2416,
+    "accuracy": 0.8329,
+    "precision_fake": 0.6374,
+    "recall_fake": 0.7106,
+    "f1_fake": 0.672,
+    "f1_macro": 0.7799,
+    "confusion_matrix": [
+      [
+        2106,
+        310
+      ],
+      [
+        222,
+        545
+      ]
+    ],
+    "roc_auc": 0.8742
+  },
+  "test_baselines": {
+    "complement_nb": {
+      "n": 3183,
+      "n_fake": 767,
+      "n_real": 2416,
+      "accuracy": 0.8234,
+      "precision_fake": 0.6123,
+      "recall_fake": 0.7288,
+      "f1_fake": 0.6655,
+      "f1_macro": 0.7728,
+      "confusion_matrix": [
+        [
+          2062,
+          354
+        ],
+        [
+          208,
+          559
+        ]
+      ],
+      "roc_auc": 0.8755
+    },
+    "linear_svm_calibrated": {
+      "n": 3183,
+      "n_fake": 767,
+      "n_real": 2416,
+      "accuracy": 0.8533,
+      "precision_fake": 0.7717,
+      "recall_fake": 0.5554,
+      "f1_fake": 0.6459,
+      "f1_macro": 0.7767,
+      "confusion_matrix": [
+        [
+          2290,
+          126
+        ],
+        [
+          341,
+          426
+        ]
+      ],
+      "roc_auc": 0.8733
+    },
+    "majority_baseline": {
+      "n": 3183,
+      "n_fake": 767,
+      "n_real": 2416,
+      "accuracy": 0.759,
+      "precision_fake": 0.0,
+      "recall_fake": 0.0,
+      "f1_fake": 0.0,
+      "f1_macro": 0.4315,
+      "confusion_matrix": [
+        [
+          2416,
+          0
+        ],
+        [
+          767,
+          0
+        ]
+      ],
+      "roc_auc": 0.5
+    }
+  },
+  "test_per_source": {
+    "gossipcop": {
+      "n": 3041,
+      "n_fake": 705,
+      "n_real": 2336,
+      "accuracy": 0.8382,
+      "precision_fake": 0.6316,
+      "recall_fake": 0.7248,
+      "f1_fake": 0.675,
+      "f1_macro": 0.7837,
+      "confusion_matrix": [
+        [
+          2038,
+          298
+        ],
+        [
+          194,
+          511
+        ]
+      ],
+      "roc_auc": 0.8778
+    },
+    "politifact": {
+      "n": 142,
+      "n_fake": 62,
+      "n_real": 80,
+      "accuracy": 0.7183,
+      "precision_fake": 0.7391,
+      "recall_fake": 0.5484,
+      "f1_fake": 0.6296,
+      "f1_macro": 0.7012,
+      "confusion_matrix": [
+        [
+          68,
+          12
+        ],
+        [
+          28,
+          34
+        ]
+      ],
+      "roc_auc": 0.7964
+    }
+  }
+}

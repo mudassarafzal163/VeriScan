@@ -1,0 +1,150 @@
+{
+  "consistency": {
+    "train_pairs": 3733,
+    "test2015_matched_vs_mismatched_auc": 0.3448,
+    "test2016_matched_vs_mismatched_auc": 0.5651
+  },
+  "fusion": {
+    "validation_set": "test2015",
+    "test_set": "test2016",
+    "n_val_posts": 1932,
+    "n_test_posts": 1117,
+    "validation_auc": {
+      "text": 0.8,
+      "image_context": 0.336,
+      "manipulation": 0.5305
+    },
+    "fusion_weights": {
+      "text": 0.9076,
+      "image_context": 0.0,
+      "manipulation": 0.0924
+    },
+    "reliability_weighted_fusion": {
+      "n": 1117,
+      "n_fake": 643,
+      "n_real": 474,
+      "accuracy": 0.6016,
+      "precision_fake": 0.6889,
+      "recall_fake": 0.5614,
+      "f1_fake": 0.6187,
+      "f1_macro": 0.6008,
+      "confusion_matrix": [
+        [
+          311,
+          163
+        ],
+        [
+          282,
+          361
+        ]
+      ],
+      "roc_auc": 0.6349
+    },
+    "ablation_unweighted_average": {
+      "n": 1117,
+      "n_fake": 643,
+      "n_real": 474,
+      "accuracy": 0.6258,
+      "precision_fake": 0.7282,
+      "recall_fake": 0.5583,
+      "f1_fake": 0.632,
+      "f1_macro": 0.6257,
+      "confusion_matrix": [
+        [
+          340,
+          134
+        ],
+        [
+          284,
+          359
+        ]
+      ],
+      "roc_auc": 0.6651
+    },
+    "ablation_stacked_lr": {
+      "n": 1117,
+      "n_fake": 643,
+      "n_real": 474,
+      "accuracy": 0.4879,
+      "precision_fake": 0.7178,
+      "recall_fake": 0.182,
+      "f1_fake": 0.2903,
+      "f1_macro": 0.4449,
+      "confusion_matrix": [
+        [
+          428,
+          46
+        ],
+        [
+          526,
+          117
+        ]
+      ],
+      "roc_auc": 0.6769
+    },
+    "ablation_only_text": {
+      "n": 1117,
+      "n_fake": 643,
+      "n_real": 474,
+      "accuracy": 0.6043,
+      "precision_fake": 0.6907,
+      "recall_fake": 0.5661,
+      "f1_fake": 0.6222,
+      "f1_macro": 0.6034,
+      "confusion_matrix": [
+        [
+          311,
+          163
+        ],
+        [
+          279,
+          364
+        ]
+      ],
+      "roc_auc": 0.645
+    },
+    "ablation_only_image_context": {
+      "n": 1117,
+      "n_fake": 643,
+      "n_real": 474,
+      "accuracy": 0.5882,
+      "precision_fake": 0.6691,
+      "recall_fake": 0.563,
+      "f1_fake": 0.6115,
+      "f1_macro": 0.5867,
+      "confusion_matrix": [
+        [
+          295,
+          179
+        ],
+        [
+          281,
+          362
+        ]
+      ],
+      "roc_auc": 0.7585
+    },
+    "ablation_only_manipulation": {
+      "n": 1117,
+      "n_fake": 643,
+      "n_real": 474,
+      "accuracy": 0.5524,
+      "precision_fake": 0.6367,
+      "recall_fake": 0.5179,
+      "f1_fake": 0.5712,
+      "f1_macro": 0.5515,
+      "confusion_matrix": [
+        [
+          284,
+          190
+        ],
+        [
+          310,
+          333
+        ]
+      ],
+      "roc_auc": 0.477
+    },
+    "note": "Single-modality test results are shown for transparency only; choosing the modality with the best TEST score would be test-set leakage, so weights come from validation."
+  }
+}

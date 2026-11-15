@@ -1,0 +1,24 @@
+{% extends "base.html" %}{% block title %}Video analysis{% endblock %}
+{% block content %}
+<h1 class="page-title h3">Video analysis</h1>
+<p class="lead-muted">Samples key frames and runs the image forensics on each, detects faces and measures temporal discontinuities.</p>
+<div class="alert alert-warning small"><i class="bi bi-info-circle me-1"></i>No trained face-swap deepfake-video model is included (FaceForensics++/DFDC require access requests and GPU training). Video results are frame-level forensics plus temporal statistics; audio is not analysed.</div>
+<div class="card"><div class="card-body">
+<form id="video-form">
+  <div class="dropzone"><i class="bi bi-film fs-2 text-secondary"></i>
+    <div>Drop a video here or click to choose <span class="text-secondary small">(MP4, AVI, MOV, MKV, WEBM · max {{ config_max }} MB)</span></div>
+    <input type="file" name="video" accept="video/*" class="form-control mt-2" required>
+    <div class="dz-preview"></div></div>
+  <div class="small text-secondary mt-2">Sample: <code>sample_inputs/videos</code>.</div>
+  <div class="form-error alert alert-danger mt-3 d-none"></div>
+  <button type="submit" class="btn btn-primary mt-3"><span class="spinner-border spinner-border-sm spinner-overlay me-1"></span>Analyse video</button>
+</form>
+</div></div>
+{% include "_result_area.html" %}
+{% endblock %}
+{% block scripts %}<script>
+document.getElementById("video-form").addEventListener("submit", (e) => {
+  e.preventDefault();
+  submitAnalysis(e.target, "/api/analyze/video", document.getElementById("result"), () => ({ body: new FormData(e.target) }));
+});
+</script>{% endblock %}

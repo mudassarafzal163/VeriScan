@@ -1,0 +1,16 @@
+{% extends "base.html" %}{% block title %}Analysis #{{ d.id }}{% endblock %}
+{% block content %}
+<div class="d-flex justify-content-between align-items-center mb-3">
+  <h1 class="page-title h4 mb-0">Analysis #{{ d.id }} <span class="text-secondary fw-normal small">· {{ d.modality }} · {{ d.created_at }} UTC</span></h1>
+  <a href="{{ url_for('pages.history_page') }}" class="btn btn-sm btn-outline-secondary">Back to history</a>
+</div>
+{% if d.file_name %}<p class="small text-secondary">File: {{ d.file_name }}</p>{% endif %}
+<div id="result"></div>
+{% endblock %}
+{% block scripts %}
+<script id="payload" type="application/json">{{ d.result | tojson }}</script>
+<script>
+const r = JSON.parse(document.getElementById("payload").textContent); r.id = {{ d.id }};
+renderResult(r, document.getElementById("result"));
+window.scrollTo(0, 0);
+</script>{% endblock %}

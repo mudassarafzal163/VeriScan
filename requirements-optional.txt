@@ -1,0 +1,3 @@
+# Optional: enables CLIP text-image consistency in the multimodal page.
+# Downloads openai/clip-vit-base-patch32 (~600 MB) from HuggingFace on first use.
+transformers>=4.40
